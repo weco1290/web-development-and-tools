@@ -1,0 +1,14 @@
+header {
+  background: coral;
+  display: flex;
+  flex-direction: row;
+  color: chartreuse;
+}
+
+footer {
+  background: coral;
+}
+
+body {
+  background: aqua;
+}
