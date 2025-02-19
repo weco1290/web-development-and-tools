@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+#express-login {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.word-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+}
+.word-item {
+  background-color: lightblue;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Guesses List */
+.guesses {
+  margin-top: 20px;
+  text-align: left;
+  list-style: none;
+}
+
+.guesses li {
+  background: #f8f9fa;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
