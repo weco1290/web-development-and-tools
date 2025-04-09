@@ -1,0 +1,102 @@
+/* .container {
+  flex: 1;
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.logout-btn {
+  margin-left: 1rem;
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.word-form {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.word-input {
+  margin-left: 0.5rem;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.update-btn {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+.container {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.greeting {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.stored-word {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.word-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-field {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.logout-btn {
+  margin-left: 1rem;
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
